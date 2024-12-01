@@ -15,7 +15,7 @@
         const extensionID = urlParams.get('extension_id');
 
         // Lấy file JSON từ GitHub
-        fetch('https://raw.githubusercontent.com/trinhgsm/manager/master/menu.json')
+        fetch('https://raw.githubusercontent.com/trinhgsm/menu/master/menu.json')
             .then(response => response.json())
             .then(data => {
                 // Kiểm tra extension_id
